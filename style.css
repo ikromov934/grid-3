@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteyner{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.bloc{
+    background-color:#9acd32;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.bg{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:repeat(12, 1fr);
+    gap: 10px;
+}
+.bg div:nth-child(1){
+    grid-row: span 12;
+}
+.bg div:nth-child(2),
+.bg div:nth-child(3){
+    grid-row: span 6;
+}
+.bg div:nth-child(4),
+.bg div:nth-child(5),
+.bg div:nth-child(6){
+    grid-row: span 4;
+}
+
+
+.bg div:nth-child(7),
+.bg div:nth-child(8),
+.bg div:nth-child(9),
+.bg div:nth-child(10){
+    grid-row: span 3;
+}
+
+.bg div:nth-child(11),
+.bg div:nth-child(12),
+.bg div:nth-child(13),
+.bg div:nth-child(14),
+.bg div:nth-child(15),
+.bg div:nth-child(16){
+    grid-row: span 2;
+}
+
+.bg div:nth-child(17)
+.bg div:nth-child(18)
+.bg div:nth-child(19)
+.bg div:nth-child(20)
+.bg div:nth-child(21)
+.bg div:nth-child(22)
+.bg div:nth-child(23)
+.bg div:nth-child(24)
+.bg div:nth-child(25)
+.bg div:nth-child(26)
+.bg div:nth-child(27)
+.bg div:nth-child(28){
+    grid-row: span 1;
+}
